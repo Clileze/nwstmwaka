@@ -222,23 +222,23 @@ void statique()
                                             while(n <seconde2.hauteur*seconde2.largeur) {
                                                 if(n%seconde2.largeur == 0) {
                                                     printf("\n");
-                                                    n++
+                                                    n++;
                                                     break;
                                                 }
                                                 if(seconde2.donnees[n] == 0)
                                                     printf(" ");
                                                 else if(seconde2.donnees[n] == 1)
                                                     printf ("X");
-                                                n++
+                                                n++;
                                                 }
-                                            m++
+                                            m++;
                                             break; //sortir boucle
                                         }
                                         if(seconde1.donnees[m] == 0)
                                             printf(" ");
                                         else if(seconde1.donnees[m] == 1)
                                             printf("X");
-                                        m++
+                                        m++;
                                     }
                                     l++;
                                     break;
